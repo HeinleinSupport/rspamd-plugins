@@ -16,7 +16,7 @@ setup(
     description="Expose nixspam on a socket",
     long_description=readme(),
 
-    py_modules=["pyzorsocket"],
+    py_modules=["nixspamsocket"],
     entry_points={
         "console_scripts": [
             "nixspamsocket=nixspamsocket:main",
